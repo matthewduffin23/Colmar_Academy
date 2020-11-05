@@ -1,0 +1,496 @@
+html {
+    background-color: white;
+    color: rgb(68, 66, 66);
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    opacity: 0.9;
+}
+
+body {
+    border: 1px solid gray;  
+}
+
+
+@media only screen and (min-width: 1024px) {
+
+header {
+    width: 100%;
+    height: 64px;
+    display: block;
+}
+
+header .logo {
+    height: 32px;
+    width: 300px;
+    padding-left: 24px;
+    position: relative;
+    top: 16px;
+}
+
+.logo a {
+    font-size: 19px;
+    font-weight: 600;
+    position: relative;
+    bottom: 10px;
+}
+
+header nav {
+    padding-right: 16px;
+    float: right;
+    position: relative;
+    bottom: 16px;
+    right: 24px;
+}
+
+nav a {
+    position: relative;
+    bottom: 10px;
+}
+
+.learn {
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: row;
+}
+
+.learn img {
+    width: 60%;
+    height: auto;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 24px;
+}
+
+.info {
+    display: flex;
+    flex-flow: column; 
+    justify-content: center;
+    align-items: center;
+    margin: 24px;
+    font-size: 30px;
+}
+
+.info a {
+    color: white;
+    background-color: grey;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 20px;
+}
+
+.practice {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.learning {
+    width: 60%;
+}
+
+.learning img {
+    width: 91%;
+    height: auto;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.learning h2 {
+    padding-bottom: 24px; 
+    font-weight: 600;
+    font-size: 35px;
+    padding-left: 24px;
+}
+
+.learning h3 {
+    font-size: 20px;
+    padding-left: 24px;
+}
+
+.learning h5 {
+    padding-bottom: 32px;
+    padding-left: 24px;
+
+}
+
+.sources {
+    width: 40%;
+    display: flex;
+    flex-flow: column;
+}
+
+.orientation {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.images {
+    width: 40%;
+}
+
+.images img {
+    height: auto;
+    width: 86%;
+    padding: 16px;
+}
+
+#one {
+    background-color: lightgrey;
+}
+
+.words {
+    width: 60%;
+    display: flex;
+    align-items: flex-start;
+    flex-flow: column;
+    padding-left: 24px;
+}
+
+.words h3 {
+    font-size: 35px;
+    margin-bottom: -15px;
+}
+
+.words h4 {
+    font-size: 20px;
+    padding-bottom: -10px;
+}
+
+.words a {
+    color: blue;
+}
+
+.options {
+    background-color: lightgrey;
+}
+
+.options h1 {
+    padding-top: 32px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.classes {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 16px;
+}
+
+.course {
+    height: 400px;
+    width: 400px;
+    margin: 16px;
+    background-color: white;
+}
+
+.course img {
+    height: auto;
+    width: 400px;
+}
+
+.course h3 {
+    font-weight: 600;
+    font-size: 25px;
+    padding-top: 16px;
+    padding-left: 16px;
+}
+
+.course h4 {
+    padding-left: 16px;
+}
+
+h4 .description {
+    padding-bottom: 24px;
+    padding-left: 16px;
+}
+
+.thesis {
+    width: 100%;
+}
+
+.thesis h1 {
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.ideas {
+    display: flex;
+    flex-direction: row;
+}
+
+.video {
+    width: 60%;
+}
+
+.video video {
+    width: 94%;
+    padding-left: 24px;
+    padding-bottom: 24px;
+}
+
+.video h3 {
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.video h4 {
+    font-size: 20px;
+}
+
+.opportunity {
+    width: 40%;
+    display: flex;
+    flex-flow: column;
+}
+
+.opportunity img {
+    height: auto;
+    width: 35%;
+    padding: 16px;
+}
+
+.places {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.concepts {
+    width: 65%;
+    display: flex;
+    align-items: flex-start;
+    flex-flow: column;
+}
+
+.concepts h3 {
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.concepts h4 {
+    font-size: 20px;
+    margin-top: -15px;
+}
+
+footer {
+    width: 100%;
+    display: block;
+}
+
+footer h5 {
+    padding-top: 16px;
+    padding-left: 24px;
+}
+
+footer .foot {
+    float: right;
+    position: relative;
+    bottom: 42px;
+    padding-right: 10px; 
+}
+
+}
+
+@media only screen and (max-width: 500px) {
+
+    header {
+        width: 100%;
+        height: 64px;
+        display: flex;
+        justify-content: center;
+    }
+
+    header a {
+        display: none;
+    }
+
+    .logo img {
+        padding-left: 32px;
+        padding-right: 32px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+
+    nav img {
+        padding-left: 32px;
+        padding-right: 32px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        position: relative;
+        top: 2px;
+    }
+
+    nav a {
+        display: none;
+    }
+
+    .learn {
+        background-color: lightgrey;
+    }
+    
+    .learn img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .info {
+        max-height: 374px;
+        display: flex;
+        flex-flow: column; 
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .info h1 {
+        font-weight: 600;
+        font-size: 50px;
+        padding-top: 32px;
+        padding-bottom: 32px;
+        position: relative;
+        bottom: 38px;
+    }
+
+    .info h3 {
+        font-size: 35px;
+        padding-bottom: 24px;
+        position: relative;
+        bottom: 107px;
+    }
+    
+    .info a {
+        color: white;
+        background-color: grey;
+        width: 100%;
+        text-align: center;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        font-size: 20px;
+        position: relative;
+        bottom: 142px;
+    }
+
+    .learning {
+        display: none;
+    }
+
+    .source {
+        padding-left: 16px;
+        padding-bottom: 32px;
+    }
+
+    .orientation {
+        margin-bottom: -30px;
+    }
+
+    .images img {
+        padding-top: 32px;
+        padding-left: 16px;
+        padding-right: 16px;
+        width: 93%;
+        height: auto;
+    }
+
+    #two {
+        margin-top: -16px;
+    }
+
+    .words {
+        display: flex;
+        flex-flow: column;
+        padding-left: 32px;
+        padding-bottom: 64px;
+    }
+
+    .words h3 {
+        font-weight: 600;
+        font-size: 30px;
+        margin-bottom: -27px;
+        padding-bottom: 8px;
+    }
+
+    .words h4 {
+        font-size: 20px;
+        margin-bottom: -1px;
+        padding-bottom: 8px;
+    }
+
+    .words a {
+        color: blue;
+    }
+
+    .options {
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+
+    .options h1 {
+        margin-top: -1px;
+        padding-bottom: 16px;
+        text-align: center;
+    }
+
+    .course img {
+        display: none;
+    }
+
+    .course h3 {
+        font-weight: 600px;
+        font-size: 25px;
+        background-color: lightgrey;
+        margin-bottom: -11px;
+        padding-top: 16px;
+        padding-left: 16px;
+        padding-bottom: 24px;
+    }
+
+    .course h4 {
+        display: none;
+    }
+
+    .thesis h1 {
+        font-weight: 600;
+        text-align: center;
+        padding-top: 32px;
+        padding-bottom: 16px;
+        position: relative;
+        bottom: 22px;
+        margin-bottom: -22px;
+    }
+
+    .video video {
+        height: auto;
+        width: 100%;
+        padding-bottom: 24px;
+    }
+
+    .video h3 {
+        display: none;
+    }
+
+    .video h4 {
+        display: none;
+    }
+
+    .opportunity {
+        display: none;
+    }
+
+    footer {
+        margin-top: -11px;
+        margin-bottom: -8px;
+    }
+
+    footer a {
+        display: none;
+    }
+
+} 
+
